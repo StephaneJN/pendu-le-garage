@@ -15,6 +15,8 @@ Cela vient de l'architecture client/serveur, sur laquelle repose le web
 Il y a donc des langages côté client et côté serveur.
 
 ## Déroulement du TP
+Chaque langage a son utilité pour le TP :
+![langage serveur](ressources/html.png)
 
 Chaque branche représente une étape pour la création du jeu du pendu :
 * [Découverte du HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-1/README.md)

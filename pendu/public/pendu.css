@@ -1,0 +1,29 @@
+body{
+    background-color: #7a4c81;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 1,5em;
+    color:#302535;
+}
+
+h1{
+    padding-left: 2em;
+}
+
+#page{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+}
+
+#entete, #menu, #pied_de_page, #visu, #reponse, #air_de_jeu{
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid #302535;
+    margin: 2em;
+    text-align: center;
+}
+
+.aTrouver{
+    font-size: 2.5em;
+}

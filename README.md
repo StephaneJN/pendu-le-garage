@@ -48,5 +48,5 @@ Le chemin de l'image, s'écrit, dans notre projet, _./publics/pendu00.png_.
 Ajoutez dans un cette __DIV__ un bouton _Voir la solution_ avec un __id__ _fin_.
 Enfin, ajoutez une balise de paragraphe, sans texte, avec un __id__ _message_.
 
-La page _pendu.html_ est terminée, mais elle n'est pas très belle. La prochaine étape du projet consiste à embellir les pages web grâce au _css_.
+La page _pendu.html_ est terminée, mais elle n'est pas très belle. La prochaine [étape](https://github.com/JaminNormand/pendu-le-garage/tree/step-3) du projet consiste à embellir les pages web grâce au _css_.
 

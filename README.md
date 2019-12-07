@@ -1,17 +1,17 @@
 # Découverte du css
 Le CSS permet d'appliquer un style à une balise html. Vous trouverez dans le répertoire _/public_ le fichier _pendu.css_ qui contient le code suivant :
 
-  body{
+    body{
       background-color: #7a4c81;
-  }
+    }
 
-  #entete{
+    #entete{
       border:2px solid #302535;
-  }
+    }
 
-  .aTrouver{
+    .aTrouver{
       font-size: 2.5em;
-  }
+    }
 
 Le CSS s'écrit toujours de la même façon : un sélécteur suivit des règles de style. Les sélecteurs sont de 3 types, comme dans notre exemple :
 * __body__ : en appelant directement la balise sur laquelle il faut appliquer le style.
@@ -22,6 +22,8 @@ Les règles de styles sont entre accolades et se terminent toutes par un point-v
 * La forme de la balise (coins arrondis, largeur, hauteur..)
 * La position de la balise (en haut, au centre, alignée..)
 * La mise en forme de la balise (couleur, bordure, police..)
+
+Il existe un très grand nombre de règles qui peuvent être retrouvées sur [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Reference).
 
 ## Appliquer une feuille de style à une page web
 Pour appliquer une feuille de style à une page web, il suffit d'ajouter cette ligne de code dans l'entête HTML :
@@ -34,7 +36,7 @@ Faites le pour les deux fichiers html du projet et observez ce que cela donne.
 Pour changer la police d'une page web, il faut :
 * tout d'abord charger la police voulu, en ajoutant, dans l'entête, une balise de ce type :
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
 *faire appelle à la police dans le style, en ajoutant, la règle suivante, pour le body par exemple :
 

@@ -19,8 +19,10 @@ Aucune balise ne peut être écrite en dehors de ces deux conteneurs.
 Lors du développement d'un projet web, vous devez garder 2 choses en tête :
 
 ### Le responsive
+![responsive](ressources/responsive.png)
 
 ### Le SEO
+![seo](https://www.seoh.fr/wp-content/uploads/2018/02/Infographie-466x656.jpg)
 
 Pour continuer le projet, téléchargez tout le projet.
 

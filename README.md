@@ -38,8 +38,27 @@ Pour changer la police d'une page web, il faut :
 
       <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
-*faire appelle à la police dans le style, en ajoutant, la règle suivante, pour le body par exemple :
+* faire appelle à la police dans le style, en ajoutant, la règle suivante, pour le __BODY__ par exemple :
 
-    font-family: "Open Sans",Arial,sans-serif;
+        font-family: "Open Sans",Arial,sans-serif;
 
 Dans cette exemple, la police _Open Sans_ est chargée à partir du site [Google Fonts](https://fonts.google.com) et appliquée au __BODY__ grâce à la règle __font-family__. Par héritage, _Open Sans_ devient la police de toutes les balises de la page. Si jamais, cette font ne peut être chargée, il faut alors appliqué _Arial_, et ainsi de suite avec toutes les polices déclarées dans __font-family__.
+
+Il est possible de faire beaucoup d'autres choses avec la police, comme changer la taille de la font ou la couleur :
+
+    font-size: 1,5em;
+    color:#302535;
+
+* la taille de la police est exprimée en __em__, une taille relative à l'écran qui rend le texte responsive.
+* La couleur est définie par une valeur hexadécimale, valeur donnée par la plupart des outils de traitement d'images.
+
+## Background
+Le __background-color__ permet donc de définir une couleur de fond pour la balise. En l'appliquant sur le __BODY__ on obtient une couleur de fond pour tout le site. Il peut être appliqué à n'importe quelle balise. Ajoutez le background suivant au sélecteur __#entete__ :
+
+    background-color: white;
+ 
+ Il est aussi possible d'ajouter une image de fond, avec __background-image__ :
+ 
+    background-image: url(https://st3.depositphotos.com/3244131/12949/v/950/depositphotos_129491694-stock-illustration-school-notebook-paper-sheet-exercise.jpg);
+ 
+ Mais il est rare d'utiliser cette règle seule, comme l'illustre [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/background-size).

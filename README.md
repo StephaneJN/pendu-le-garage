@@ -26,18 +26,18 @@ Les règles de styles sont entre accolades et se terminent toutes par un point-v
 ## Appliquer une feuille de style à une page web
 Pour appliquer une feuille de style à une page web, il suffit d'ajouter cette ligne de code dans l'entête HTML :
 
-  <link rel="stylesheet" href="./public/pendu.css">
-
-Faites le pour les deux fichier html du projet et observé ce que cela donne.
+    <link rel="stylesheet" href="./public/pendu.css">
+  
+Faites le pour les deux fichiers html du projet et observez ce que cela donne.
 
 ## Police
 Pour changer la police d'une page web, il faut :
 * tout d'abord charger la police voulu, en ajoutant, dans l'entête, une balise de ce type :
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
 *faire appelle à la police dans le style, en ajoutant, la règle suivante, pour le body par exemple :
 
-  font-family: "Open Sans",Arial,sans-serif;
+    font-family: "Open Sans",Arial,sans-serif;
 
 Dans cette exemple, la police _Open Sans_ est chargée à partir du site [Google Fonts](https://fonts.google.com) et appliquée au __BODY__ grâce à la règle __font-family__. Par héritage, _Open Sans_ devient la police de toutes les balises de la page. Si jamais, cette font ne peut être chargée, il faut alors appliqué _Arial_, et ainsi de suite avec toutes les polices déclarées dans __font-family__.

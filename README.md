@@ -128,4 +128,4 @@ Par défaut, les balises sont alors alignées. Pour les remettre en colonne, ajo
 
     flex-direction: column;
     
-Maintenant que les bases du CSS sont vus, terminons la feuille de style à l'étape 4.
+Maintenant que les bases du CSS sont vus, terminons la feuille de style à l'[étape 4](https://github.com/JaminNormand/pendu-le-garage/tree/step-4).

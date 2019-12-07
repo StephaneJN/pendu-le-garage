@@ -21,8 +21,8 @@ Chaque langage a son utilité pour le projet :
 Nous allons manipuler ces langages à travers les différentes étapes du projet, en partant du HTML, en passant par le CSS et en terminant avec le JS.
 
 Chaque branche du projet représente l'une de ces étapes pour le développement du jeu du Pendu :
-* [Découverte du HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-1/README.md)
-* [Première page HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-2/README.md)
+* [Découverte du HTML](https://github.com/JaminNormand/pendu-le-garage/tree/step-1)
+* [Première page HTML](https://github.com/JaminNormand/pendu-le-garage/tree/step-2)
 * [Découverte du CSS](https://github.com/JaminNormand/pendu-le-garage/tree/step-3)
 * [Une feuille de style complète](https://github.com/JaminNormand/pendu-le-garage/tree/step-4)
 

@@ -22,4 +22,5 @@ Nous allons manipuler ces langages à travers les différentes étapes du projet
 
 Chaque branche du projet représente l'une de ces étapes pour le développement du jeu du Pendu :
 * [Découverte du HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-1/README.md)
-* Première page HTML
+* [Première page HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-2/README.md)
+

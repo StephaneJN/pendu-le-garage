@@ -24,5 +24,6 @@ Chaque branche du projet représente l'une de ces étapes pour le développement
 * [Découverte du HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-1/README.md)
 * [Première page HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-2/README.md)
 * [Découverte du CSS](https://github.com/JaminNormand/pendu-le-garage/blob/step-3/README.md)
+* [Une feuille de style complète](https://github.com/JaminNormand/pendu-le-garage/blob/step-4/README.md)
 
 

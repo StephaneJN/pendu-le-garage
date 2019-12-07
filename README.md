@@ -17,5 +17,5 @@ Il y a donc des langages côté client et côté serveur.
 ## Déroulement du TP
 
 Chaque branche représente une étape pour la création du jeu du pendu :
-* Découverte du HTML
+* [Découverte du HTML]()
 * Première page HTML

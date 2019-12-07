@@ -7,3 +7,10 @@ C'est du code client, c'est à dire des langages interprétés par votre navigat
 
 ![Langages web](https://www.alticreation.com/uploads/iceberg-front-end-back-end-developers.jpg)
 
+Pourquoi faire la différence entre front et back end ?
+Cela vient de l'architecture client/serveur, sur laquelle repose le web
+
+![architecture client/serveur](https://www.pinterest.fr/pin/628955904196411227/)
+
+Il y a donc des langages côté client et côté serveur.
+

@@ -18,9 +18,11 @@ Il y a donc des langages côté client et côté serveur.
 Chaque langage a son utilité pour le projet :
 ![langage serveur](ressources/html.png)
 
-Nous allons manipuler ces langages à travers les différentes étapes du projet, en partant du HTML, puis en passant au CSS et en terminant avec le JS.
+Nous allons manipuler ces langages à travers les différentes étapes du projet, en partant du HTML, en passant par le CSS et en terminant avec le JS.
 
 Chaque branche du projet représente l'une de ces étapes pour le développement du jeu du Pendu :
 * [Découverte du HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-1/README.md)
 * [Première page HTML](https://github.com/JaminNormand/pendu-le-garage/blob/step-2/README.md)
+* [Découverte du CSS](https://github.com/JaminNormand/pendu-le-garage/blob/step-3/README.md)
+
 

@@ -10,7 +10,9 @@ C'est du code client, c'est à dire des langages interprétés par votre navigat
 Pourquoi faire la différence entre front et back end ?
 Cela vient de l'architecture client/serveur, sur laquelle repose le web
 
-![architecture client/serveur](https://pin.it/idenanmduatmo6)
+![architecture client/serveur](https://www.pinterest.com/pin/628955904196411227/)
 
 Il y a donc des langages côté client et côté serveur.
+
+## Déroulement du TP
 

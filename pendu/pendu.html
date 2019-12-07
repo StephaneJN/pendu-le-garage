@@ -1,22 +1,38 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jeu du pendu</title>
-</head>
-<body><div id="page">
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Jeu du pendu</title>
+     </head>
+
+    <body><div id="page">
         <div id="entete">
+            <h1>Le Pendu par le Garage</h1>
+            <p><a href="index.html">Retour à l'accueil</a></p>
         </div>
 
         <div id="air_de_jeu">
+            <p>
+                <input type="text" id="lettre0" class="aTrouver" size="1"/>
+                <input type="text" id="lettre1" class="aTrouver" size="1"/>
+                <input type="text" id="lettre2" class="aTrouver" size="1"/>
+                <input type="text" id="lettre3" class="aTrouver" size="1"/>
+                <input type="text" id="lettre4" class="aTrouver" size="1"/>
+                <input type="text" id="lettre5" class="aTrouver" size="1"/>
+                <input type="text" id="lettre6" class="aTrouver" size="1"/>
+            </p>
+            <p>
+                    <button id="jeu">Nouveau Jeu</button>
+            </p>
         </div>
 
         <div id="visu">
+                <img id="pendu" src="./public/pendu00.png" alt="début"/>
         </div>
 
         <div id="reponse">
+            <button id="fin">Voir la solution</button>
+            <p id="message"></p>
         </div>
     </div></body>
 </html>

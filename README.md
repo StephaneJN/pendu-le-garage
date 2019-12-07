@@ -99,3 +99,4 @@ Modifions notre _index.html_ pour ajouter un lien vers la page _pendu.html_. Rep
 
 Si vous avez bien compris le principe, modifiez la deuxième ligne pour atteindre la page _pendu.html_ en passant le paramètre __niveau=7__.
 
+Maintenant que la première page est terminée vous pouvez passer à l'[étape 2](https://github.com/JaminNormand/pendu-le-garage/tree/step-2)

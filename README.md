@@ -7,6 +7,13 @@ Le JavaScript repose sur 3 principes :
 * _Les fonctions_ : reconnaissable à leurs (), qui déclenche des actions sur la page web. Commencer la partie, par exemple.
 * _Les mots clés_ : des mots qui structure le code et qui ont une fonction précise. le mot __var__, sert par exemple à déclarer une variable et le mot __function__, une fonction.
 
+## Utiliser JavaScript
+Ajoutez la ligne suivante à la fin du __BODY__ de la page _pendu.html_ :
+
+    <script src="./public/pendu.js"></script>
+
+Comme pour le CSS, il faut dire à la page web où se trouve le code JS que l'on veut utiliser.
+
 ## Les variables
 Elles sont donc déclarée par le mot __var__ suivi d'un nom, laissé à l'appréciation du développeur. Il est possible de leurs attribuer une valeur grâce au symbole _=_. 
 

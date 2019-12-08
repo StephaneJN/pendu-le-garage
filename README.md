@@ -76,8 +76,8 @@ Ce paragraphe prend place dans la __DIV__ _menu_. Ajoutez le paragraphe suivant 
 Il est aussi possible de créer des listes à puces :
 
         <ul>
-            <li>niveau 1</li>
-            <li>niveau 2</li>        
+            <li>niveau facile</li>
+            <li>niveau difficile</li>        
         </ul>
         
 Cette liste prend place dans la __DIV__ _menu_. 

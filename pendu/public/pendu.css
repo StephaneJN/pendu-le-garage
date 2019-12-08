@@ -5,10 +5,6 @@ body{
     color:#302535;
 }
 
-h1{
-    padding-left: 2em;
-}
-
 #page{
     width:80%;
     margin:auto;
@@ -25,5 +21,36 @@ h1{
 }
 
 .aTrouver{
+    margin-right: 1em;
+    text-align: center;
     font-size: 2.5em;
+}
+
+h1{
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+
+li{
+    list-style-type: none;
+    margin: 1em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button{
+    border-color: #00000000;
+    letter-spacing: 0.2em;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f9674d;
+    color:#ffffff;
+    margin:1em;
 }

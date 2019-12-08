@@ -1,51 +1,32 @@
-# Une feuille de style complète
-Les pages commencent à avoir du style, mais on peut faire mieux. Voici les dernières règles à ajouter pour terminer la mise en forme du site.
+# Découverte du JavaScript
+Le JavaScript est utilisé pour rendre dynamique une page web. A l'heure actuelle, dans notre jeu, lorsqu'un bouton est cliqué ou un champ rempli, il ne se passe rien. Le code qui va être ajouté va permettre de mettre à jour la page suivant ces évènements. C'est ce qu'on appelle du code évènementiel.
 
-## Pour la page d'index
-Voici le travail à faire par sélecteur. N'hésitez à les ajouter s'il n'existe pas encore dans votre CSS.
+## structure du JavaSript
+Le JavaScript repose sur 3 principes :
+* _les variables_ : qui mémorisent les informations utiles au programme. Le mot à trouver, par exemple.
+* _Les fonctions_ : reconnaissable à leurs (), qui déclenche des actions sur la page web. Commencer la partie, par exemple.
+* _Les mots clés_ : des mots qui structure le code et qui ont une fonction précise. le mot __var__, sert par exemple à déclarer une variable et le mot __function__, une fonction.
 
-### H1
-Pour un titre un peu plus lisible, il faut espacer les lettres, le passer en gras et en majuscule. Voici les régles à ajouter au sélecteur :
+## Les variables
+Elles sont donc déclarée par le mot __var__ suivi d'un nom, laissé à l'appréciation du développeur. Il est possible de leurs attribuer une valeur grâce au symbole _=_. 
 
-    h1{
-      letter-spacing: 0.1em;
-      font-size: 2em;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
+Ces valeurs peuvent être :
+* _du numérique_ : en mettant tout simple un nombre après le __=__,
+* _du texte_ : en mettant le texte entre guillemets,
+* _un booléen_ : c'est une variable qui ne peut être que vraie ou fausse. on utilise alors les mots clés __true__ ou __false__.
 
-* __letter-spacing__ : pour l'espace entre les lettres,
-* __font-weight__ : _bold_ pour passer en gras,
-* __text-transform__ : avec la valeur _uppercase_ le titre sera toujours en majuscule.
+Voici, par exemple, deux variables dont on a besoin dans le code :
 
-### LI
-Les liens seraient bien mieux sans les puces. Pour les enlever, ajoutez la ligne suivante dans le sélecteur __LI__ :
+    /* déclaration des variables */
+    var solution = "Demandez un nouveau jeu"
+    var etape = 0
 
-    list-style-type: none;
-    
-Il ne reste plus qu'à ajouter un __margin__ de _1em_ pour aérer un peu cette partie de la page. Ca vous savez désormais le faire.
+A noter que la ligne qui commence par __/*__ et se termine par __*/__ n'est pas du code, mais un simple texte appellé commentaire.
 
-### A
-La police par défaut ne met pas assez en avant les liens. Il faudrait les avoir en gras et dans une police plus grande. _2em_ par exemple. A vous de jouer.
+Pour voir si vous avec bien compris le principe :
+* ajoutez une variable _bravo_ avec une valeur de _0_,
+* et une variable _mots_ avec pour valeur _"garage"_.
 
-Pour épurer un peu, nous allons enlever la ligne de soulignement grâce à la règle suivante :
 
-    text-decoration: none;
 
-## Pour la page du jeu du pendu
 
-## classe aTrouver
-Pour les __INPUTS__, repérés grâce à la classe _aTrouver_, il nous faudrez des champs un peux moins resserrer  (grâce au __margin__) et un texte centré.
-
-## button
-Il faut rajouter le sélecteur, et les règles qui vont avec, pour avoir des boutons qui ont pour style :
-* _#00000000_ en couleur de bordure,
-* _#f9674d_ en couleur de fond,
-* _#ffffff_ en couleur d'écriture,
-* _1.1em_ en taille de police,
-* _0.2em_ en espacement de lettre,
-* _1em_ en margin,
-* du gras,
-* le texte en majuscule.
-
-Le site est terminé, du moins pour la présentation. Il faut maintenant coder la logique du jeu à l'[étape 5]().

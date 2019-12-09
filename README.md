@@ -1,4 +1,4 @@
-# Le jeu du Pendu par le Garage
+# Le jeu du Pendu par vous-même
 
 BRAVO, vous êtes arrivé au bout de l'atelier. 
 

@@ -218,7 +218,16 @@ Ces derniers éléments doivent nous permettre de coder la logique du jeu, qui d
         })
     }
 
+## A vous de coder
+En vous inspirant de la fonction __gagner()__ codez la fonction __perdre()__, sans paramètre, qui doit :
+* désactiver les champs de saisie,
+* afficher la solution dans le paragraphe _message_,
+* afficher l'image _public/pendu07.png_,
+* afficher le texte de _message_ dans la couleur #f9674d.
 
+Puis ajoutez l'évènement _click_ sur le bouton d'__id__ _fin_. Le code de cet évènement appel la fonction __perdre()__.
+
+Enfin, vous allez pouvoir coder les différents niveaux de jeu dans l'étape 6.
 
 
 

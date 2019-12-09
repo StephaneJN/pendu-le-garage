@@ -10,7 +10,8 @@ var fin = document.getElementById("fin")
 var solution = "Demandez un nouveau jeu"
 var etape = 0
 var bravo = 0
-var mots = "garage"
+//var mots = "garage"
+var mots=["garage", "hacker", "bifide", "bonsai", "cheval"]
 
 /* déclaration des fonctions */
 
@@ -56,21 +57,31 @@ function perdre(nodes, solution){
 }
 
 /* logique de jeu */
+var niveau = getNiveau()
+
+//Liste de mots pour le niveau facile
+document.getElementById("lettre6").hidden = true
+
+//Liste de mots pour le niveau difficile
+if (niveau == 7)
+{
+    mots = ["absolue","butanol","cabotin","gabarie","piccolo"]
+    document.getElementById("lettre6").hidden = false
+}
+
+//initialiser le jeu
 //alert(jeu.innerHTML)
 desactiver(inputs, true)
 message.innerHTML = solution
-
-//Liste de mots pour le niveau facile
-
-//Liste de mots pour le niveau difficile
-
-//initialiser le jeu
 
 /* évènements */
 
 //Click sur le bouton 'nouveau jeu'
 jeu.addEventListener("click", function(){
-    solution = mots
+    //solution = mots
+    var max = mots.length
+    var indice = Math.floor(Math.random() * max)
+    solution = mots[indice]
 
     desactiver(inputs, false)
     pendu.src = "./public/pendu00.png"
@@ -84,7 +95,7 @@ jeu.addEventListener("click", function(){
 fin.addEventListener("click", function(){
     perdre(inputs, solution)
 })
-       
+
 //saisie dans un champs texte
 for (var i = 0; i < inputs.length; i++) {
     inputs[i].addEventListener("change",function(){
@@ -97,7 +108,7 @@ for (var i = 0; i < inputs.length; i++) {
         {
             bravo++
 
-            if (bravo == 6)
+            if (bravo == niveau)
             {
                 gagner(inputs, solution)
             }

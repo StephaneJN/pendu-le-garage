@@ -203,7 +203,7 @@ Ces derniers éléments doivent nous permettre de coder la logique du jeu, qui d
             {
                 bravo++
 
-                if (bravo == niveau)
+                if (bravo == 6)
                 {
                     gagner(inputs, solution)
                 }

@@ -1,8 +1,18 @@
 /* sélection des éléments de la page pour travailler avec */
+var airDeJeu = document.getElementById("air_de_jeu")
+var inputs = airDeJeu.getElementsByClassName("aTrouver")
+var jeu = document.getElementById("jeu")
+var message = document.getElementById("message")
+var pendu = document.getElementById("pendu")
+var fin = document.getElementById("fin")
 
 /* déclaration des variables */
+var solution = "Demandez un nouveau jeu"
+var etape = 0
+var bravo = 0
+var mots = "garage"
 
-/* déclaration du code */
+/* déclaration des fonctions */
 
 //fonction pour récupérer le niveau de difficulté
 function getNiveau(){
@@ -13,7 +23,7 @@ function getNiveau(){
 
 //fonction pour activer ou desactiver les champs de saisie
 function desactiver(nodes, ok){
-    var couleur = "white"
+    var couleur = "#ffffff"
 
     if(ok)
     {
@@ -39,10 +49,16 @@ function gagner(nodes, solution){
 
 //fonction pour mettre à jour la page web lorsque le mot n'est pas trouvé
 function perdre(nodes, solution){
-
+    desactiver(nodes, true)
+    message.innerHTML = solution
+    pendu.src = "./public/pendu07.png"
+    message.setAttribute("style", "color: #f9674d")    
 }
 
 /* logique de jeu */
+//alert(jeu.innerHTML)
+desactiver(inputs, true)
+message.innerHTML = solution
 
 //Liste de mots pour le niveau facile
 
@@ -53,14 +69,49 @@ function perdre(nodes, solution){
 /* évènements */
 
 //Click sur le bouton 'nouveau jeu'
+jeu.addEventListener("click", function(){
+    solution = mots
+
+    desactiver(inputs, false)
+    pendu.src = "./public/pendu00.png"
+    message.innerHTML = ""
+    message.setAttribute("style", "color: #302535")
+    bravo = 0
+    etape = 0
+})
 
 //Click sur le bouton 'voir la solution'
+fin.addEventListener("click", function(){
+    perdre(inputs, solution)
+})
        
 //saisie dans un champs texte
 for (var i = 0; i < inputs.length; i++) {
     inputs[i].addEventListener("change",function(){
+        var position = this.getAttribute("id").charAt(6)
+        var saisie = this.value
+        var lettre = solution.charAt(position)
+
+        
+        if(saisie.toLowerCase() == lettre.toLowerCase())
+        {
+            bravo++
+
+            if (bravo == niveau)
+            {
+                gagner(inputs, solution)
+            }
+
+        }else{
+            etape++
+            pendu.src = './public/pendu0'+etape+'.png'
+
+            if(etape > 6){
+                perdre(inputs, solution)
+            }
+        }
     })
-} 
+}
 
 
 

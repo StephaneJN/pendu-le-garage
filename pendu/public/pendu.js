@@ -97,7 +97,7 @@ for (var i = 0; i < inputs.length; i++) {
         {
             bravo++
 
-            if (bravo == niveau)
+            if (bravo == 6)
             {
                 gagner(inputs, solution)
             }

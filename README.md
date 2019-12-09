@@ -14,5 +14,15 @@ Commencez par modifier la variable __mots__ comme proposé ici :
  * __mots[3]__ : retourne "bonsai",
  * __mots[i]__ : il est possible d'utiliser une variable pour représenter l'indice.
  
- 
+ Il reste à demander au programme de tirer un mot au hasard dans cette liste. Pour ça, remplaçons __solution = mots__, dans l'évènement __jeu.addEventListener("click", function(){__ par les lignes suivantes :
+
+    jeu.addEventListener("click", function(){
+        var max = mots.length
+        var indice = Math.floor(Math.random() * max)
+        solution = mots[indice]
+* __mots.length__ : donne le nombre d'élément de la liste __mots__,
+* __Math.random()__ : tire de façon aléatoire, un nombre en 0 et 1,
+* __* max__ : il faut donc le multiplier par notre nombre de mots,
+* __Math.floor__: et arrondir la valeur à l'entier le plus proche.
+
 

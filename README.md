@@ -26,6 +26,6 @@ Chaque branche du projet représente l'une de ces étapes pour le développement
 * [Découverte du CSS](https://github.com/JaminNormand/pendu-le-garage/tree/step-3)
 * [Une feuille de style complète](https://github.com/JaminNormand/pendu-le-garage/tree/step-4)
 * [Découverte du JavaScript](https://github.com/JaminNormand/pendu-le-garage/tree/step-5)
-* [Premier code JavaScript]()
+* [Premier code JavaScript](https://github.com/JaminNormand/pendu-le-garage/tree/step-6)
 
 

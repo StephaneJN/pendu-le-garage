@@ -219,7 +219,7 @@ Ces derniers éléments doivent nous permettre de coder la logique du jeu, qui d
     }
 
 ## A vous de coder
-En vous inspirant de la fonction __gagner()__ codez la fonction __perdre()__, sans paramètre, qui doit :
+En vous inspirant de la fonction __gagner(nodes, solution)__ codez la fonction __perdre(nodes, solution)__, qui doit :
 * désactiver les champs de saisie,
 * afficher la solution dans le paragraphe _message_,
 * afficher l'image _public/pendu07.png_,
